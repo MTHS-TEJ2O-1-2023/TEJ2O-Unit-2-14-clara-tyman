@@ -2,7 +2,7 @@
  *
  * Created by: Clara
  * Created on: Nov 2023
- * This program moves LED's diagonaly across the microbit 
+ * This program moves LED's diagonaly across the microbit
 */
 
 let sprite: game.LedSprite = null
@@ -25,8 +25,8 @@ input.onButtonPressed(Button.A, function () {
     sprite.set(LedSpriteProperty.Y, loopCounter)
     loopCounter = loopCounter + 1
   }
-    sprite.delete()
-    basic.showIcon(IconNames.Happy)
+  sprite.delete()
+  basic.showIcon(IconNames.Happy)
 })
 
 // press "B" button
